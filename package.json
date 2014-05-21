@@ -4,7 +4,7 @@
 	"keywords": ["anviz", "BAK.KQ", "EP300", "fingerprint"],
 	"version": "0.0.1",
 	"dependencies":	{
-		"anviz-backup-reader": "^0.0.1",
-		"xlgen": "^0.1.0"
+		"anviz-backup-reader": "^0.1.1",
+		"excel-export": "*"
 	}
 }
