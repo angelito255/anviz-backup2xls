@@ -1,8 +1,13 @@
 {
 	"name": "anviz-backup2xls",
 	"description": "Converts Anviz's Fingerprint Reader BAK.KQ backup files to XLS.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ivantodorovich/anviz-backup2xls.git"
+    },
+    "bugs": "https://github.com/ivantodorovich/anviz-backup2xls/issues",
 	"keywords": ["anviz", "BAK.KQ", "EP300", "fingerprint"],
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"dependencies":	{
 		"anviz-backup-reader": "^0.1.1",
 		"excel-export": "*"
