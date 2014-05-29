@@ -7,9 +7,10 @@
     },
     "bugs": "https://github.com/ivantodorovich/anviz-backup2xls/issues",
     "keywords": ["anviz", "BAK.KQ", "EP300", "fingerprint"],
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependencies": {
         "anviz-backup-reader": "^0.1.1",
-        "excel-export": "*"
+        "excel-export": "*",
+        "optimist": "*"
     }
 }

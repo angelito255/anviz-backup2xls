@@ -2,7 +2,7 @@ var fs       = require('fs')
 var reader   = require('anviz-backup-reader')
 var excel    = require('excel-export')
 
-var BASEDATE = new Date(Date.UTC(1899,11,30))
+var BASEDATE = new Date(1899,11,30)
 
 module.exports = function(source, output) {
     var conf = {}
