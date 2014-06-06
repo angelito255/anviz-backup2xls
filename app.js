@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 var path     = require('path')
-var optimist = require('optimist')
+var yargs = require('yargs')
 var bak2xls  = require('./')
 
-var argv = optimist
-	.usage('Usage: $0 path-to-input path-to-output [options]')
+var argv = yargs
+	.usage('Usage: $0 [OPTIONS] -i INPUT [-o OUTPUT]')
 
 var input  = argv.argv._[0]
 var output = argv.argv._[1]
 
 if (!input || !output) {
-	optimist.showHelp()
+	yargs.showHelp()
 	process.exit(1)
 }
 
